@@ -22,6 +22,7 @@ final class AddEventCoordinator: Coordinator {
 //    create add event view controller 
     let addEventViewController = AddEventViewController()
     let addEventViewModel = AddEventViewModel()
+    addEventViewModel.coordinator = self
     addEventViewController.viewModel = addEventViewModel
     navigationController.present(addEventViewController, animated: true, completion: nil)
     }
@@ -29,6 +30,7 @@ final class AddEventCoordinator: Coordinator {
   func didFinishAddEvent(){
     parentCoordinator?.childDidFinish(self)
   }
+  
 }
   
   

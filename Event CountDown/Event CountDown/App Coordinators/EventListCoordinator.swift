@@ -29,6 +29,7 @@ final class EventListCoordinator: Coordinator {
   
   func startAddEvent(){
     let addEventCoordinator = AddEventCoordinator(navigationController: navigationController)
+    addEventCoordinator.parentCoordinator = self
     childCoordinators.append(addEventCoordinator)
     addEventCoordinator.start()
   }

@@ -74,6 +74,7 @@
 		B43AD15F26F4438500A4D3D9 /* Event CountDown */ = {
 			isa = PBXGroup;
 			children = (
+				B45C11FA26F92DBA008404E3 /* ViewModels */,
 				B462541626F49F9700BADCEC /* Models */,
 				B462541526F49F8E00BADCEC /* Views */,
 				B462541426F49F7100BADCEC /* Extensions */,
@@ -84,10 +85,17 @@
 				B43AD17126F4438600A4D3D9 /* Info.plist */,
 				B43AD16926F4438500A4D3D9 /* Event_CountDown.xcdatamodeld */,
 				B462541926F4BF7900BADCEC /* CoreDataManager.swift */,
+			);
+			path = "Event CountDown";
+			sourceTree = "<group>";
+		};
+		B45C11FA26F92DBA008404E3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
 				B462541F26F4EFDF00BADCEC /* EventListViewModel.swift */,
 				B462542526F52A5B00BADCEC /* AddEventViewModel.swift */,
 			);
-			path = "Event CountDown";
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		B462541226F49F2D00BADCEC /* App Coordinators */ = {
