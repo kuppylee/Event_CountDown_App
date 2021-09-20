@@ -21,6 +21,7 @@
 		B462542026F4EFDF00BADCEC /* EventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462541F26F4EFDF00BADCEC /* EventListViewModel.swift */; };
 		B462542226F4F32700BADCEC /* AddEventCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462542126F4F32700BADCEC /* AddEventCoordinator.swift */; };
 		B462542426F4FC3900BADCEC /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462542326F4FC3900BADCEC /* AddEventViewController.swift */; };
+		B462542626F52A5B00BADCEC /* AddEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462542526F52A5B00BADCEC /* AddEventViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		B462541F26F4EFDF00BADCEC /* EventListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewModel.swift; sourceTree = "<group>"; };
 		B462542126F4F32700BADCEC /* AddEventCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventCoordinator.swift; sourceTree = "<group>"; };
 		B462542326F4FC3900BADCEC /* AddEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		B462542526F52A5B00BADCEC /* AddEventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				B43AD16926F4438500A4D3D9 /* Event_CountDown.xcdatamodeld */,
 				B462541926F4BF7900BADCEC /* CoreDataManager.swift */,
 				B462541F26F4EFDF00BADCEC /* EventListViewModel.swift */,
+				B462542526F52A5B00BADCEC /* AddEventViewModel.swift */,
 			);
 			path = "Event CountDown";
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				B43AD17826F44A5500A4D3D9 /* AppCordinator.swift in Sources */,
 				B462542426F4FC3900BADCEC /* AddEventViewController.swift in Sources */,
 				B43AD17E26F4605E00A4D3D9 /* UIColor + Extension.swift in Sources */,
+				B462542626F52A5B00BADCEC /* AddEventViewModel.swift in Sources */,
 				B43AD17C26F457C700A4D3D9 /* EventListViewController.swift in Sources */,
 				B43AD16526F4438500A4D3D9 /* ViewController.swift in Sources */,
 				B43AD16126F4438500A4D3D9 /* AppDelegate.swift in Sources */,
